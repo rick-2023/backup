@@ -1,0 +1,639 @@
+C:\ProgramData\Oracle\Java\javapath;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\
+
+liuzhenggang610@sina.com
+
+了解angularjs
+
+形势与政策 作业 爆炸 圣彼得堡
+
+三角形 变化
+
+xml作业
+
+
+http://www.zdfans.com/
+
+5.18
+	网站规划设计，物流系统仿真，
+	xml
+	51信用面试
+
+
+5.23
+	网站的市场定位分析
+	网站构建的可行性分析
+	网站推广
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+5.27
+	研究一下java乱码问题
+	flexSim
+	自己搭建ss
+	Spring frameWork
+
+6.3
+设计模式 工厂，单例
+VBox 安装centos
+
+6.4
+	map源码分析
+	写一篇关于垃圾回收与内存管理的文章
+	-Xms 初始堆
+	-Xmx 最大堆
+	-Xmn 最小堆
+
+	动态对象年龄判断
+		如果Survivor空间中相同年龄所有对象的大小总和大于Survivor区的一半，年龄大于，等于该年龄的对象就可以直接进入老年代，无需等待MaxTenuringThreshold中要求的年龄
+
+\n 换行
+\t 制表符
+\' \" 单引号 双引号
+
+mysql 多版本并发控制 MVCC
+
+
+----------------------------------------------------------6.18-----------------------------------------------------------------------------------------
+python
+	将一个列表复制到另一个新的列表
+	1.copy()函数
+	2.list()转换函数 c = list(a)
+	3.列表分片 c = a[:]
+
+	元组解包
+
+	交换a,b 
+	a,b = b,a
+
+	元祖一旦创建，不能修改
+	字典
+		{}
+		使用update 合并字典 p.udate(o)
+		del p ['a']  删除指定键值的元素
+		p.clear() 清空所有元素
+-----------------------------------------6.24-------------------------------------------------------------------------------------------
+
+java特种兵
+	并发问题的描述
+	1.指令重排序
+	2.4字节赋值问题：非volatile变量读取时，一个线程赋值，被另外一个线程读取
+	3.数据失效 线程不可见，
+	4.非安全的发布 
+
+	volatile在读取的瞬间，要求一个简单的顺序，而不是在变量上的原子读写，或者在一段代码上的同步
+	并且要求实现StroeLoad屏障指令
+	作用1：
+		保证多线程中的共享变量始终是可见的，并不保证对象内部的属性完全可见
+		某些情况下不允许进行重排序，即防止相关性代码的重排序
+
+
+	栈封闭-----ThreadLocal
+
+hadoop权威指南
+Hadoop 技术详解
+Xshell 5---------------租云服务器？
+
+Linux
+	Regular Expression---正则表达式
+	grep 'z.*o' 匹配z开头o结尾的所有字符串
+	grep 'z.o' 匹配z开头，o结尾 中间包含一个任意字符的字符串
+	grep 'zo*' 匹配以z开头，任意多个o结尾的字符串
+
+	sed -i '1s/shiayanlou/happy/' test 将test中的第一行shiyanlou 替换为 happy
+
+	sed stream editor
+
+	打印指定行
+	nl passwd | sed -n '5,7p' 		#5到7行
+	nl passwd | sed -n '1~2p'		#奇数行
+
+	Debian Package ------dpkg
+	本地安装  sudo dpkg -i emacs24_24.3+1-4ubuntu1_amd64.deb
+	失败由于缺少依赖 sudo apt-get -f install
+
+
+--------------------------------------------7.11----------------------------------------------
+Java 锁
+	锁的自身优化方法：
+		自旋 
+		CAS 改变对象头部的mark区域就可以实现轻量级锁。
+		jdk1.6 偏向锁 希望记录一个线程的ID 
+
+	copyOnwriteArrayList和CopyOnWriteArraySet
+
+
+	让多个线程同时执行某些操作 CountDownLatch
+
+	https://www.nowcoder.com/discuss/28813?type=2&order=0&pos=10&page=1、
+
+
+	实习经历
+	2017年3月--2017年8月 杭州海康威视技术有限公司 Java实习生     	
+	工作内容
+		参与校园综合信息管理平台产品的开发与维护工作，
+		撰写用户需求文档，概要设计用例，用户操作手册，产品安装手册
+		API接口文档整理
+		代码审核
+
+
+	项目经验
+
+		校园综合信息管理平台--智能考勤项目
+
+		项目描述：该系统采用Spring Boot与Spring Data JPA，利用监控设备,教室,人员三者之间的建立满足一定时间和次数考勤规则，通过设备向系统发送MQ消息队列，解析告警报文。满足考勤规则的记录，进行保存并展示。
+
+		责任描述：本人主要负责解析考勤记录以及考勤记录的查询模块的开发与维护，实现了适应主要监控设备考勤的记录与展示查询。为系统测试编写单元测试用例与接口文档。
+
+
+		教务可视化--级联管理模块
+		
+		该模块是为各个平台建立级联关系，实现资源共享：下级平台将本级和其下级的资源开放给上级
+		上级平台根据接收到的资源，可以对资源进行预览与回放并可以修改资源开发权限等。
+
+		本人主要协助完成前期模块的需求文档撰写以及级联管理功能模块的开发，包括级联平台、开放资源的修改，添加与删除，后期单元测试与接口文档的编写。
+		
+
+
+研究一下云服务器
+C:\Program Files\Internet Explorer
+F:\CAJViewer Lite
+
+
+git常见错误 
+		fatal: pathspec 'readme.txt' did not match any files   不存在这个文件
+
+
+单点登录系统是怎么实现的
+
+
+  if (count & 1) == 0) { // 判断偶数的高效写法
+
+  PriorityQueue会对入队的元素进行排序，所以在队列顶端的总是最小的元素
+
+
+  刷一下面经
+  
+  https
+  
+
+  有赞内推 https://www.nowcoder.com/discuss/31559?type=0&order=0&pos=27&page=2   luchengju@youzan.com
+  滴滴内推 
+  网易
+  阿里
+  华为
+  挖财
+
+  算法视频-1：1   http://www.julyedu.com/video/play/25
+  背包问题 http://blog.csdn.net/mu399/article/details/7722810
+
+  NIO
+  分散读取 Scattering Reads 将通道中的数据分散到多个缓冲区中
+
+  聚集写入： 将多个缓冲区中的数据聚集到通道中
+
+  编码：字符串->字节数组
+  解码：字节数组->字符串
+
+  cdn
+  redis
+  nosql
+  负载均衡
+  springFramework springboot源码
+
+
+
+  堆排序 http://www.cnblogs.com/skywang12345/p/3602162.html
+  		 http://www.cnblogs.com/skywang12345/category/508186.html
+
+  字典树
+
+  Session Cookie
+
+  jvm https://zhuanlan.zhihu.com/p/25511795?utm_medium=social&utm_source=qq
+  单点登录  http://blog.csdn.net/javaloveiphone/article/details/52439613
+
+  java静态代理与动态代理
+
+  ConcurrentHashMap 红黑树构造,CAS
+  Dubbo
+  Spring boot
+  读写锁
+  
+ JAVA的双端队列
+ 数据库连接池
+ 线程池
+ 阻塞，异步
+
+ 单链表==========leetcode 92,25,141,142,86
+
+ 18DONE--- 		单链表 todo 
+ 				关于tcp的一篇博客
+
+
+ sql注入
+ SpringMVC 
+
+ https http://support.upyun.com/hc/kb/article/1031843/?comefrom=http://blogread.cn/news/
+ ssh ssl https...........
+
+
+ 准备一下招银科技的笔试面试知识
+ 数据库的隔离级别
+ 美团技术博客--数据库
+ B+树的数据结构
+ 索引
+
+
+ 概率随机题目经常是与最后一个数交换得到
+
+ LinkedList ArrayList 源码
+ 历年阿里笔试
+
+
+自我介绍
+Java8
+	http://biezhi.me/2017/07/16/keep-up-with-java8.html
+	http://winterbe.com/posts/2014/03/16/java-8-tutorial/
+		Java8种引入新的机制，支持在接口中声明方法同时提供实现
+			1.在接口内声明静态方法 
+			2.指定一个默认方法。
+
+
+成神
+	http://www.hollischuang.com/archives/489
+
+
+http协议
+	https://hit-alibaba.github.io/interview/basic/network/HTTP.html
+
+	二叉树的锯齿形层次遍历
+	Runtime 类
+	死锁的产生与解决
+	
+8.24 TODO
+	1.23 剩余
+	2. 笔试 网易*6
+	动态规划
+
+72法则，复利为1%的时候，需要72年会翻倍(估算)。那么估算时，如果利息为x%时，翻倍的时间即为 72/x 年 
+
+回顾总结之前做到的项目-----然后完善简历，排版 总结
+
+	数组做链表
+	朋友圈 微博的加载机制
+	区块链
+
+	宁波银行 http://blog.csdn.net/u011307997/article/details/75332872
+
+
+	我们都从心高气傲，到屡遭挫折，再到各自认命。看山是山，看水是水；看山，看水，究竟是不是山水？
+      卖完身的那一刻，我感觉自己身体被掏空了。丝毫没有愉悦感，有的竟是满满的不安。
+
+       大数据问题
+       	哈希分流
+
+       面试
+       	http://blog.csdn.net/qq_32447301/article/details/77539821
+
+
+     反射机制
+     常见jvm参数
+     复习常见的设计模式，含义，常见场景
+     Spring源码 设计模式---《技术内幕》
+
+
+    	银行家算法：避免死锁
+		资源有序分配法：预防死锁
+		资源分配图化简法：检测死锁
+		撤销进程法：解决死锁
+
+	Runtime类实现
+	Spring 面试 http://www.importnew.com/15851.html#bean_lifecycle
+
+
+	https https://callmeli.github.io/2016/12/29/HTTPS%E8%AF%A6%E8%A7%A3/
+
+	项目
+
+
+	NIO http://www.iteye.com/magazines/132-Java-NIO
+
+
+	 http://blog.csdn.net/v_july_v/article/details/6105630
+
+	 B-树 根节点关键字最多M-1个，最少m/2-1向上取整
+
+	 Java复制数组的四种方法
+	 
+	 单例模式http://blog.csdn.net/cselmu9/article/details/51366946
+	 
+	 
+	
+链接：https://www.nowcoder.com/discuss/38555?type=0&order=0&pos=10&page=1
+
+每一本书我都会看三遍，第一遍是快速浏览，了解整本书的体系结构、作者的行文思路，知道书中重要的、不重要的内容，也就是要建立起全局观。
+第二遍我会精读，把那些我认为重要的内容挑选出来着重阅读、反复理解、吃透。
+第三遍阅读，往往会冒出新的理解，我时常有这种『书读百遍，其义自见』的感觉。
+三遍读完后，我便按照自己的理解，把核心内容写成博客。
+由于是自己的写的东西，所以在复习的时候只要花上三五分钟通读一遍，所有的知识点又被唤醒
+	 	
+
+	 	JDBC连接数据库过程
+	 		1.加载数据库驱动
+	 		2.提供jdbc的url
+	 		3.创建连接
+	 		4.创建statement对象
+	 		5.执行sql语句
+	 		6.处理结果
+	 		7.关闭jdnc对象
+
+
+	ArrayDeque 没有容量限制，可根据需求自动进行扩容。ArrayDeque不支持值为 null 的元素，初始容量必须是2的幂次
+	ArrayDeque 可以作为栈来使用，效率要高于 Stack
+	ArrayDeque 也可以作为队列来使用，效率相较于基于双向链表的 LinkedList 也要更好一些
+
+
+	数据库课程设计
+	个人 
+		文件名.doc 学号+姓名+组名
+
+	小组
+		组号+项目名+实交（应交）
+
+	wangting@hdu.edu.cn
+
+
+git常见命令
+	http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
+
+
+	消息认证用于保证数据传输过程中没有被篡改
+
+
+
+招银科技 传送门
+	http://blog.csdn.net/u013576018/article/details/77923042
+
+AJAX原理
+postgresql
+
+Java正则表达式
+Java反射-动态代理-cglib代理
+
+关注有赞的面经
+Spring boot --------------------http://tengj.top/2017/02/28/springboot2/
+
+
+问了索引是基于什么数据结构实现的？隐约记得是B树，又让介绍一下B树，不会。
+说一下TCP三次握手的过程，有点紧张，部分地方说错了。
+问了HTTP请求包含了哪些信息？忘了是什么，就说包含了IP、端口和发送的内容以及其他信息，答得不好
+
+
+1.浏览器向站点1发起请求
+2.站点1发现没有合法的cookie,重定向到Cas server上
+3.cas server展示登录页面，要求用户登录
+4.用户登录后，将cookie写到浏览器，302跳转到cas client 
+5.cas client利用ticket发送到cas server进行验证，通过后站点1生成cookie写回到浏览器，然后进行登录成功的跳转。
+6.就能保证当前浏览器在站点1下有站点1 的cookie也有cas server的cookie
+
+------
+登录站点2时，和初次登录一致，在访问cas server由于浏览器之前有cas server的cookie 那么直接校验通过返回ticket
+，如果认证失败，重新走一遍登录过程
+
+注意问题
+	https实现， 防止被劫持
+	时效性 5分钟
+	
+
+	细节的地方还可以深挖
+	jdk spring源码
+
+
+了解一下消息队列
+
+排序的稳定性是指 两个相等的元素在排序前后相对位置保持不变
+	意义 对于简单类型来说，稳定性的意义不大，对于复杂类型来说，可能使用其中一个属性进行排序，不稳定的话会交换这两个元素的位置，原本不应该交换的也被交换了
+算法的时间复杂度 
+
+
+查看一下源码 
+// 首先判断该类型是否已经被加载  
+ Class c = findLoadedClass(name);  
+
+
+操作系统的调度算法
+	1.先来先服务调度算法（FCFS）:就是按照各个作业进入系统的自然次序来调度作业。这种调度算法的优点是实现简单，公平。其缺点是没有考虑到系统中各种资源的综合使用情况，往往使短作业的用户不满意，因为短作业等待处理的时间可能比实际运行时间长得多。 因此选A；
+	
+	2.短作业优先调度算法 (SPF): 就是优先调度并处理短作业，所谓短是指作业的运行时间短。而在作业未投入运行时，并不能知道它实际的运行时间的长短，因此需要用户在提交作业时同时提交作业运行时间的估计值。  
+	
+	3.最高响应比优先算法(HRN)：FCFS可能造成短作业用户不满，SPF可能使得长作业用户不满，于是提出HRN，选择响应比最高的作业运行。响应比=1+作业等待时间/作业处理时间。 因此选C；
+	
+	4. 基于优先数调度算法(HPF)：每一个作业规定一个表示该作业优先级别的整数，当需要将新的作业由输入井调入内存处理时，优先选择优先数最高的作业。
+中间件
+数据库 测试
+
+leetcode链表
+	http://www.cnblogs.com/xiaoba1203/p/6758319.html
+
+KMP算法
+	长为n的字符串中匹配长度为m的子串 时间复杂度O(m+n)
+
+
+	时间重叠：让多个处理过程在时间上错开，轮流重叠的使用同一套硬件设备的各个部分，加快硬件使用的周转来赢得速度。——流水线处理机
+
+	资源重叠：通过重复设置硬件资源来提高性能或可靠性。——并行处理机、相联处理机
+
+	资源共享：用软件的方法让多个用户公用同一套资源，通过提高系统资源的利用率来提高系统的效率和性能。——多处理机
+
+组策略
+
+二叉树性质 有n个节点，就一定是有n+1个空指针域
+
+方法重写override
+2同2小1大
+	方法名和参数列表相同
+	子类的异常，返回值小于等于父类
+	子类的修饰符访问权限大于等于父类
+
+
+http://www.cnblogs.com/lfeng1205/p/5981198.html
+
+Nginx
+Socket编程
+死锁
+
+
+fork入门知识
+     一个进程，包括代码、数据和分配给进程的资源。fork（）函数通过系统调用创建一个与原来进程几乎完全相同的进程，
+	也就是两个进程可以做完全相同的事，但如果初始参数或者传入的变量不同，两个进程也可以做不同的事。
+
+    一个进程调用fork（）函数后，系统先给新的进程分配资源，例如存储数据和代码的空间。然后把原来的进程的所有值都
+	复制到新的新进程中，只有少数值与原来的进程的值不同。相当于克隆了一个自己。
+
+
+----------------------------------------广度----------------------------------------------------------------
+
+redis nginx,zookeeper,kafka,netty,thrift,mongoDB,OSGI,mq
+负载均衡
+
+有赞 笔试https://www.nowcoder.com/discuss/46045
+
+秋招难，近两个月的时间，我身边的同学几乎都经历了从面朝未来的信心满满到不明所以被淘汰的低沉难过，亦或者是一天俩（仨）笔试两天一面试的繁忙。心态崩了，那又怎样，崩了也要面对也要继续去争取啊！
+
+SpingDataJPA
+
+-----------------测试相关--------------------------------------------------------
+黑盒测试
+		在已知产品所应具有的功能，通过测试来检测每个功能是否都能正常使用
+
+白盒测试
+		全面了解程序内部逻辑结构、对所有逻辑路径进行测试
+
+
+
+CDN
+
+--------------------缓存----------------------------------------------------------
+
+什么是缓存
+	1、Cache是高速缓冲存储器 一种特殊的存储器子系统，其中复制了频繁使用的数据以利于快速访问
+	2、凡是位于速度相差较大的两种硬件/软件之间的，用于协调两者数据传输速度差异的结构，均可称之为 Cache
+
+存在？
+	操作系统磁盘缓存->减少磁盘机械操作
+	数据库缓存->减少文件系统I/O
+	应用程序缓存->减少对数据库的查询 
+	Web服务器缓存->减少应用服务器请求
+	客户端浏览器缓存->减少对网站的访问
+
+操作系统缓存
+	disk cache ------> 操作系统会把经常访问到的文件内容放入到内存当中，由文件系统来管理
+	当应用程序通过文件系统访问磁盘文件的时候 通过disk cahce读取文件
+	Disk Cache由操作系统来自动管理，一般不用人工干预，但应当保证物理内存充足，以便于操作系统可以使用尽量多的内存充当Disk Cache，加速文件读取速度
+	特殊的应用程序对文件系统Disk Cache有很高的要求，会绕开文件系统Disk Cache，直接访问磁盘分区，自己实现Disk
+
+数据库缓存
+	数据库通常是企业应用系统最核心的部分
+	数据库保存的数据量通常非常庞大
+	数据库查询操作通常很频繁，有时还很复杂
+
+	Query Cache
+			以SQL作为key值缓存查询结果集
+			Query Cache并非越大越好，过大的Qquery Cache会浪费内存。
+			MySQL: query_cache_size= 128M
+
+	Data Cache
+			data buffer是数据库数据在内存中的容器
+			data buffer的命中率直接决定了数据库的性能
+			data buffer越大越好，多多益善
+			MySQL的InnoDB buffer：innodb_buffer_pool_size = 2G
+			MySQL建议buffer pool开大到服务器物理内存60-80%
+
+应用程序缓存
+	对象缓存
+	查询缓存
+	页面缓存
+		ajax的浏览器缓存
+
+web服务器端缓存
+	基于代理服务器模式的Web服务器端缓存，如squid/nginx
+	Web服务器缓存技术被用来实现CDN（内容分发网络 content delivery network）
+	被国内主流门户网站大量采用
+	不需要编程，但仅限于新闻发布类网站，页面实时性要求不高
+
+
+贝贝网  hr邮箱
+
+spring-boot 注解
+data jpa
+父类子类加载顺序
+final static threadlocal Java异常 类加载顺序
+nio
+
+招银科技
+	io有哪几类
+	osi七层
+	单例线程安全
+	session cookie 跨域请求
+	序列化与反序列化
+	tomcat如何部署
+	Java 如何实现数据库事务
+	spring了解哪些类
+	myisam innodb 区别
+
+
+众合科技
+	如何实现一个虚拟机
+	虚拟机内存溢出 哪些原因 如何检查 哪些工具
+	项目运行很慢哪里去找问题
+	日志 有没有遇到奇怪的问题
+	数据库索引 为什么使用B+树
+	网络编程 聊天发包 怎么处理 怎么分这个包
+	acid
+	linux 查看cpu 磁盘使用量
+	map插入一万条记录 需要注意什么问题
+	线程安全有哪些措施
+	用过哪些数据结构
+	计算机网络 五层结构
+
+关于递归次数的计算
+
+https://www.nowcoder.com/test/question/done?tid=11535371&qid=36678#summary
+
+
+
+Spring boot
+数据库三大范式
+常见加密算法
+sql  练习  http://www.jianshu.com/p/6d27f3efc381------------------------------26
+servlet生 命周期
+
+消息队列
+
+socket网络编程 如何设计发包
+
+what、when、who、how、why
+
+	http://insights.thoughtworks.cn/excellent-developer/?comefrom=http://blogread.cn/news/
+
+如何准备校招技术
+https://my.oschina.net/brianway/blog/1545329
+
+
+http://www.oschina.net/translate/10-java-exception-and-error-interview-questions-answers-programming
+
+并发包的锁 同步器 阻塞队列 并发容器 io/nio jvm垃圾回收 类加载 内存模型 数据库引擎 索引 事务 sql ssm源码
+
+Spring bean
+http://docs.huihoo.com/spring/zh-cn/beans.html
+
+3.3.3 方法注入
+
+知乎 Java 高票
+	https://www.zhihu.com/question/29581524/answer/44872235
+
+网站缓存
+	http://www.woniubi.cn/web_cache/?comefrom=http://blogread.cn/news/
+
+	CSDN博客专栏
+
+	welcome to the real world, it sucks, you gonna like it
+
+----------------------------2017.10.23-----------------------------------
+  看不见的客人
+  完美陌生人
+  Jedis连接Java 
+  档案 网上三方
+
+  hzyjk132302
+
+
+  http://www.hollischuang.com/archives/489
+
+  hexo-gitpage
+  
+
+  但行好事，莫问前程。泰山崩于前，我依然沐浴更衣焚香沏茶，诚心正意，手起键落：Hello World!
+
+  安徽广播电视大学
